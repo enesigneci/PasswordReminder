@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGray">#333333</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPasswordName">#F1F1F1</color>
+    <color name="fabColor">#1E2148</color>
+    <color name="subFabColor">#2B2F7B</color>
+    <color name="colorAccent">#000000</color>
+    <color name="rainbow_1">#ee4035</color>
+    <color name="rainbow_5">#f39e36</color>
+    <color name="rainbow_3">#b300b3</color>
+    <color name="rainbow_2">#7bc043</color>
+    <color name="rainbow_4">#303F9F</color>
+    <color name="rainbow_6">#0392cf</color>
+</resources>

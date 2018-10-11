@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "950914404721",
+    "firebase_url": "https://passwordreminder-60488.firebaseio.com",
+    "project_id": "passwordreminder-60488",
+    "storage_bucket": "passwordreminder-60488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950914404721:android:99f8168a1d0b0903",
+        "android_client_info": {
+          "package_name": "com.enesigneci.passwordreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950914404721-oauj7i0jk95hliihp7jiifvggqjd8arv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enesigneci.passwordreminder",
+            "certificate_hash": "917f2d7f4a07db1d6b02d907e0132602efa0de8a"
+          }
+        },
+        {
+          "client_id": "950914404721-c9p2v7kpag1ns8tvl41i07a5a8a1ajvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABkf44IxQdIJY-lnure_A8aN8HKwD2ATs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950914404721-c9p2v7kpag1ns8tvl41i07a5a8a1ajvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
