@@ -1,9 +1,9 @@
 package com.enesigneci.passwordreminder;
 
-import android.arch.persistence.room.Room;
+import androidx.room.Room;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
