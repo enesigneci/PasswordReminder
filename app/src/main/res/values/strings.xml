@@ -35,7 +35,6 @@
     <string name="password_name">Password Name</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="banner_ad_unit_id">ca-app-pub-9406267063685764/8005392429</string>
     <string name="password_copied_to_your_clipboard">Password was copied to your clipboard.</string>
     <string name="passcode_count_4">Master password that you entered is wrong, you have 4 chances left.</string>
     <string name="passcode_count_3">Master password that you entered is wrong, you have 3 chances left.</string>
