@@ -36,7 +36,6 @@
     <string name="password_name">Parola adı</string>
     <string name="username">Kullanıcı adı</string>
     <string name="password">Parola</string>
-    <string name="banner_ad_unit_id">ca-app-pub-9406267063685764/8005392429</string>
     <string name="password_copied_to_your_clipboard">Parola kopyalandı.</string>
     <string name="passcode_count_4">Girdiğiniz ana şifre yanlış, 4 şansınız kaldı.</string>
     <string name="passcode_count_3">Girdiğiniz ana şifre yanlış, 3 şansınız kaldı.</string>

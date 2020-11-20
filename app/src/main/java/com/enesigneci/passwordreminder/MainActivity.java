@@ -1,10 +1,8 @@
 package com.enesigneci.passwordreminder;
 
-import android.Manifest;
 import androidx.room.Room;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import com.google.android.material.snackbar.Snackbar;
@@ -22,7 +20,6 @@ import com.enesigneci.passwordreminder.adapter.ReminderViewPagerAdapter;
 import com.enesigneci.passwordreminder.db.AppDb;
 import com.enesigneci.passwordreminder.listener.DataRefreshListener;
 import com.enesigneci.passwordreminder.model.Passwords;
-import com.google.android.gms.ads.MobileAds;
 import com.jaredrummler.materialspinner.MaterialSpinner;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionMenu;
@@ -44,10 +41,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            requestPermissions(new String[]{Manifest.permission.INTERNET}, 0);
-        }
-        MobileAds.initialize(this, "ca-app-pub-9406267063685764~7410921085");
         mContext = MainActivity.this;
         passwordToAdd=new Passwords();
         final SecurityManager securityManager = new SecurityManager();

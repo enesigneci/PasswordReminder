@@ -27,8 +27,6 @@ import com.enesigneci.passwordreminder.db.AppDb;
 import com.enesigneci.passwordreminder.listener.DataRefreshListener;
 import com.enesigneci.passwordreminder.listener.RecyclerClickListener;
 import com.enesigneci.passwordreminder.model.Passwords;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,9 +51,6 @@ public class TabSocialMediaAccounts extends Fragment implements DataRefreshListe
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_tab_social_media_accounts, container, false);
-        AdView mAdView = view.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
         listFilled = view.findViewById(R.id.list_filled);
         RecyclerView rvSocialMediaAccountPasswords = (RecyclerView) view.findViewById(R.id.recycler_social_media_accounts);
         emptyView=view.findViewById(R.id.empty_view);
