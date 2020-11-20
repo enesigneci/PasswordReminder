@@ -105,7 +105,6 @@ public class MainActivity extends AppCompatActivity {
         // in Activity Context
         final ImageView icon = new ImageView(this); // Create an icon
         icon.setImageDrawable(getResources().getDrawable(R.drawable.add));
-        FloatingActionButton.LayoutParams floatingLayoutParams=new FloatingActionButton.LayoutParams(128,128);
         FloatingActionButton actionButton = new FloatingActionButton.Builder(this)
                 .setTheme(FloatingActionButton.THEME_DARK)
                 .setContentView(icon)
@@ -115,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         // repeat many times:
         ImageView socialMediaIcon = new ImageView(this);
         socialMediaIcon.setImageDrawable(getResources().getDrawable(R.drawable.social));
-        FloatingActionButton.LayoutParams floatingButtonLayoutParams=new FloatingActionButton.LayoutParams(128,128);
+        FloatingActionButton.LayoutParams floatingButtonLayoutParams=new FloatingActionButton.LayoutParams(64,64);
         SubActionButton addSocialMedia = itemBuilder.setContentView(socialMediaIcon).setBackgroundDrawable(getResources().getDrawable(R.drawable.sub_fab_background)).setTheme(SubActionButton.THEME_DARK).setLayoutParams(floatingButtonLayoutParams).build();
         ImageView emailIcon = new ImageView(this);
         emailIcon.setImageDrawable(getResources().getDrawable(R.drawable.email));
