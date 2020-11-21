@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            storeFile file('../secret/keystore.jks')
+            storePassword '12345678'
+            keyAlias 'upload'
+            keyPassword '12345678'
+        }
+    }
     compileSdkVersion 29
     defaultConfig {
         applicationId "com.enesigneci.passwordreminder"
@@ -9,6 +17,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        signingConfig signingConfigs.config
     }
     buildTypes {
         release {
